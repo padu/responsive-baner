@@ -14,7 +14,7 @@ class ImageContainer extends HTMLElement {
                 <div style="display: block;justify-content: center;align-items: center;margin: 0px auto;">
                     <img src="./image/Text-line.svg" style="max-width:100%;height:auto;">
                 </div>
-                <div class="image-container" style="display: flex;justify-content: center;align-items: center;margin: 0px auto;">
+                <div class="image-container" style="display: flex;justify-content: center;align-items: center;margin: 0px auto;max-width: 600px;">
                     <img src="./image/Leaf-Right.svg" style="max-width:100%;height: auto;transform: scalex(-1)">
                     <a href="http://google.com" style="display:inline-block" target="_blank" rel="noopener noreferrer">
                         <img src="./image/NBC-Logo.svg" style="max-width:100%;height: auto;padding:0 17px;">
