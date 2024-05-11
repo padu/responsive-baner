@@ -9,19 +9,23 @@
             text-align: center;
             color: yellowgreen;
             margin-bottom: 5rem;
-        }
-        .responsive {
-            max-width: 100%;
-            height: auto;
-        }
-        .center-image {
-            display: block;
-            margin: 0px auto;
-        }
+        }   
     </style>
+    <script src="imageContainer.js"></script>
 </head>
 <body>
     <h1 class="heading">Responsive Baner Demo</h1>
-    <img src="./image/Responsive-Banner-Black.svg" alt="Nature" class="responsive center-image"> 
+    <!-- <img src="./image/Responsive-Banner-Black.svg" alt="Nature" style="display:block;max-width:100%;height:auto;margin:0px auto;"> -->
+
+    <!-- <div class="image-container" style="position: relative;display: block;">
+        <img src="./image/Responsive-Banner-Black.svg" alt="Nature" style="position:relative;display:block;max-width:100%;height:auto;margin:0px auto;">
+        <a href="http://google.com" target="_blank" rel="noopener noreferrer" class="image-link" style="position: absolute;background-color: transparent;top: 34%;left: 30%;width: 6%;height: 50%;"></a>
+        <a href="http://google.com" target="_blank" rel="noopener noreferrer" class="image-link " style="position: absolute;background-color: transparent;top: 34%;left: 37%;width: 9%;height: 50%;"></a>
+        <a href="http://google.com" target="_blank" rel="noopener noreferrer" class="image-link " style="position: absolute;background-color: transparent;top: 34%;left: 47%;width: 5%;height: 50%;"></a>
+        <a href="http://google.com" target="_blank" rel="noopener noreferrer" class="image-link " style="position: absolute;background-color: transparent;top: 34%;left: 54%;width: 7%;height: 53%;"></a>
+        <a href="http://google.com" target="_blank" rel="noopener noreferrer" class="image-link" style="position: absolute;background-color: transparent;top: 34%;left: 62%;width: 7%;height: 50%;"></a>
+    </div> -->
+    
+    <image-container></image-container>
 </body>
 </html>
