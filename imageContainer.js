@@ -10,7 +10,10 @@ class ImageContainer extends HTMLElement {
 
     render() {
         this.shadowRoot.innerHTML = `
-            <div class="image-container-main" style="display: flex;justify-content: center;align-items: center;margin: 0px auto;">
+            <div class="image-container-main" style="display: flex;justify-content: center;align-items: center;margin: 0px auto;flex-direction: column;">
+                <div style="display: block;justify-content: center;align-items: center;margin: 0px auto;">
+                    <img src="./image/Text-line.svg" style="max-width:100%;height:auto;">
+                </div>
                 <div class="image-container" style="display: flex;justify-content: center;align-items: center;margin: 0px auto;">
                     <img src="./image/Leaf-Right.svg" style="max-width:100%;height: auto;transform: scalex(-1)">
                     <a href="http://google.com" style="display:inline-block" target="_blank" rel="noopener noreferrer">
